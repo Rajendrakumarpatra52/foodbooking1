@@ -1,0 +1,23 @@
+form{
+    text-align: center;
+    border: 2px solid black;
+    width: 300px;
+    height: auto;
+    background-color: lightsalmon;
+    margin: 20px;
+    padding: 20px;
+}
+body{
+    background: #00b09b;
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  
+    background: linear-gradient(to right, #96c93d, #00b09b);
+}
+.box{
+    margin-bottom: 10px;
+}
+h1{
+    border-bottom: 2px solid black;
+}
+.input{
+    background-color: darkorange;
+}

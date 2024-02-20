@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 5px 10px 0px 10px;
+    /* background-color: yellowgreen; */
+    margin: 0px;
+    padding: 20px 30px;
+}
+.logo{
+    font-size: 30px;
+    color: brown;
+    font-style: oblique;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    position: static;
+    left: -180px;
+    margin: 30px;
+    padding: 0px 10px;
+}
+a:hover{
+    color: aliceblue;
+    font-size: 18px;
+}
+body{
+    background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96c93d, #00b09b);
+}
+p{
+    font-style: italic;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2{
+    color: yellow;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    align-items: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.M3 p:nth-child(2){
+    color: orange;
+}
+#food1,#food2,#food3,#food4{
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    margin: 0px 30px;
+}
+#food1{
+    background-image: url(images/a1.jpg);
+}
+#food2{
+    background-image: url(images/OIP.jpeg);
+    background-position: center;
+}
+#food3{
+    background-image: url(images/a6.jpg);
+    background-position: center;
+}
+#food4{
+    background-image: url(images/a4.jpg);
+    background-position: center;
+}
+.food{
+    display: flex;
+    margin: 100px 250px;
+}
+
+  

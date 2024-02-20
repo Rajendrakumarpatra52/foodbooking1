@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <link rel="stylesheet" href="insert.css">
+</head>
+<body>
+    <center>
+        <h1><u>Fill Your Address & Payment Details</u></h1>
+        <form action="submit.html">
+        <h2><u>Address section</u></h2>
+        <table>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" placeholder="required" class="input" name="fname"required></td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="number" placeholder="required" class="input" name="mob" required></td>
+            </tr>
+            <tr>
+                <td>House Number/ Building Name </td>
+                <td><input type="text" placeholder="required" class="input" name="Hno" required></td>
+            </tr>
+             <tr>
+                <td>Road Name</td>
+                <td><input type="text" placeholder="required" class="input" name="road" required></td>
+             </tr>
+             <tr>
+                <td>City</td>
+                <td><input type="text" placeholder="required" class="input" name="city" required></td>
+             </tr>
+            <tr>
+                <td>Pincode</td>
+                <td><input type="text" placeholder="required" class="input" name="pin" required></td>
+            </tr>
+        </table>
+        <h2><u>Payment Section</u></h2>
+        <div>
+            <h3>Choose Your Payment Option</h3>
+            <input type="radio" name="payment" value="COD" id="COD" name="cod" required>Cash On Delivery
+            <!-- <input type="radio" name="payment" value="QR" id="QR" onclick="QR">Through QR Code  -->
+        </div>
+        <button>Submit</button>
+        </form>
+       
+    </center>
+</body>
+</html>

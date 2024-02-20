@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 5px 10px 0px 10px;
+    /* background-color: aqua; */
+    margin: 0px;
+    padding: 20px 30px;
+}
+.logo{
+    font-size: 30px;
+    color: brown;
+    font-style: oblique;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    position: static;
+    left: -180px;
+    margin: 30px;
+    padding: 0px 10px;
+}
+a:hover{
+    color: aliceblue;
+    font-size: 26px;
+}
+body{
+background: #00b09b;
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  
+background: linear-gradient(to right, #96c93d, #00b09b);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"content="width=device-width, initial-scale=1.0">
+	<title>Log in Page</title>
+	<link rel="stylesheet" href="login1.css">
+</head> 
+
+<body>
+<div class="container">
+	<div class="slider"></div>
+		<div class="btn">
+			<button class="login">Login</button>
+			<button class="signup">Signup</button>
+		</div>
+	<div class="form-section">
+		<form action="login.php" method="post">
+			<div class="login-box">
+				<input type="email" class="email" name="email" placeholder="youremail@email.com">
+				<input type="password" class="password" name="pass" placeholder="password">
+				<button class="clkbtn">Login</button>
+			</div>
+		</form>
+		<form action="signin.php" method="post">
+			<div class="signup-box">
+				<input type="text" class="name" name="fname"  placeholder="Enter your first name">
+				<input type="text" class="name" name="lname"  placeholder="Enter your last name">
+				<input type="email" class="email" name="email" placeholder="youremail@email.com">
+				<input type="password" class="password" name="password" placeholder="password">
+				<input type="password"class="password" name="c_password"  placeholder="Confirm password">
+				<button class="clkbtn">Signup</button>
+			</div>
+		</form>
+	</div>
+</div>
+<script>
+let signup = document.querySelector(".signup");
+let login = document.querySelector(".login");
+let slider = document.querySelector(".slider");
+let formSection = document.querySelector(".form-section");
+
+signup.addEventListener("click", () => {
+	slider.classList.add("moveslider");
+	formSection.classList.add("form-section-move");
+});
+
+login.addEventListener("click", () => {
+	slider.classList.remove("moveslider");
+	formSection.classList.remove("form-section-move");
+});
+</script>
+</body>
+</html>

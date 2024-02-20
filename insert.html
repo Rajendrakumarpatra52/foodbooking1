@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data inserting</title>
+    <link rel="stylesheet" href="insert.css">
+</head>
+<body>
+<center>
+    <form action="insert.php" method="post">
+    <h1><u>Add Your Item</u></h1>
+    Item name <input type="text" class="box" name="name"><br>
+    MRP <input type="number" class="box" id="price" name="mrp"><br>
+    Discount <input type="number" class="box" id="discount" name="discount">%<br>
+    Discounted Price <input type="number" class="box" id="net" name="price" onclick="netPrice()"><br>
+    Item photo <input type="file" class="box" name="photo"><br>
+    <button>Submit</button>
+</form>
+</center>
+<script>
+    let n_price=document.getElementById("net");
+    let price=document.getElementById("price");
+    let discount=document.getElementById("discount");
+    function netPrice(){
+        let disc=parseFloat(price.value*(discount.value/100));
+        n_price = (price.value-disc);
+        document.getElementById("net").value = n_price;
+    }
+    
+</script>
+</body>
+</html>

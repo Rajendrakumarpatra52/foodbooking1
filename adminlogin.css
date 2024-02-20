@@ -1,0 +1,57 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        width: 200px;
+        height: 30px;
+}
+ .container {
+        height: 450px;
+        width: 400px;
+        background-color: rgb(111, 202, 251);
+        box-shadow: 8px 8px 20px rgb(128, 128, 128);
+        position: relative;
+        overflow: hidden;
+}
+ .btn {
+        height: 60px;
+        width: 300px;
+        margin: 20px 35px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+ }
+ .login,.signup{
+        font-size: 22px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+ }
+body{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, #96c93d, #00b09b);
+}
+.clkbtn {
+	height: 60px;
+	width: 150px;
+	border-radius: 50px;
+	background-image: linear-gradient(to left,rgb(209, 255, 7),rgb(8, 248, 40));
+	font-size: 22px;
+	border: none;
+	cursor: pointer;
+}
+.login-box,.signup-box{
+	height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    gap: 30px;
+    align-items: center;
+}
